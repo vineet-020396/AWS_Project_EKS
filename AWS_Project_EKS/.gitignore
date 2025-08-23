@@ -16,18 +16,6 @@ terraform.rc
 **/terraform-provider*
 **/.terraform/providers/**
 
-# Crash log files
-crash.log
-crash.*.log
-
 # Local files
 .env
 *.log
-
-# AWS credentials
-.aws/
-credentials
-config.terraform/
-*.tfstate
-*.tfstate.*
-crash.log
