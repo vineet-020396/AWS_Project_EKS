@@ -27,4 +27,7 @@ crash.*.log
 # AWS credentials
 .aws/
 credentials
-config
+config.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
